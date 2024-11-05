@@ -51,15 +51,41 @@ Combined Operations:
 Merged Arrays: [a, b, c, d]
 ```
 
-## Bonus Challenge (Optional):
-Add error handling for:
-- Empty strings or arrays
-- Null inputs
-- Arrays with no elements
+---
 
-## Evaluation Criteria:
-- Correct implementation of all methods
-- Proper method naming and parameters
-- Clear output formatting
-- Successful test cases
-- Code organization and readability
+### Extra Practice Quiz
+
+#### Question 1: Merge Two Arrays
+Given two arrays of integers, write a method called `merge` that merges the two arrays into one larger array. The method `merge` will return a new one-dimensional array of integers.
+```java
+int[] array1 = {10, 20, 30}; 
+int[] array2 = {40, 50, 60}; 
+merge(array1, array2) → {10, 20, 30, 40, 50, 60}
+```
+
+#### Question 2: Interleave Two Arrays
+Given two arrays of integers of equal length, write a method called `interleave` that interleaves the elements from both arrays into one larger array. The method `interleave` will return a new one-dimensional array of integers.
+```java
+int[] array1 = {1, 2, 3}; 
+int[] array2 = {4, 5, 6}; 
+interleave(array1, array2) → {1, 4, 2, 5, 3, 6}
+```
+
+#### Question 3: Sum of Corresponding Elements
+Given two arrays of integers of equal length, write a method called `sumArrays` that computes the sum of each element in the first array with the corresponding element in the second array. The method `sumArrays` will return a new one-dimensional array of integers.
+```java
+int[] array1 = {1, 2, 3}; 
+int[] array2 = {4, 5, 6}; 
+sumArrays(array1, array2) → {5, 7, 9}
+```
+
+#### Question 4: Count Vowels in Strings
+Given an array of Strings, write a method called `vowelCount` that calculates the number of vowels in each String and stores them into a new array. The method `vowelCount` will return a new one-dimensional array of integers. Implement a helper method called `countVowels` that counts the number of vowels in a single word.
+*Hint: You can check if a character is a vowel by comparing it against the characters 'a', 'e', 'i', 'o', and 'u' (both uppercase and lowercase).*
+```java
+String[] words = {"Hello", "World", "Java", "Programming"}; 
+vowelCount(words) → {2, 1, 2, 3}
+```
+
+---
+
